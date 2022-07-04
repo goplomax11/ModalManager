@@ -1,0 +1,40 @@
+.modal 
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100vw
+    height: 100vh
+    position: fixed
+    top: 0
+    left: 0
+    transform: scale(0)
+
+    &.active
+        transform: scale(1)
+
+ 
+    &__content 
+        display: inline-block
+        margin: 20px
+        position: relative
+        text-align: left
+        width: 432px
+        box-shadow: 0 4px 16px #ccc
+
+.close-icon 
+    position: absolute
+    right: 10px
+    top: 12px
+    z-index: 1
+
+.next-arrow
+    position: absolute
+    right: 50px
+    top: 10px
+    z-index: 1
+    width: 40px
+    height: 24px
+    font-size: 20px
+    cursor: pointer
+    text-align: center
+    color: blue

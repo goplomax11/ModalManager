@@ -1,0 +1,81 @@
+.header
+    padding: 10px 16px
+
+.title
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif
+    font-size: 32px
+    line-height: 38px
+    font-weight: 600
+    margin-bottom: 0
+
+.subtitle
+    color: #606770
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif
+    font-size: 15px
+    line-height: 24px
+
+.form
+    border-radius: 0 0 8px 8px
+    border-top: 1px solid #dadde1
+    padding: 16px
+    position: relative
+    width: 432px
+    box-sizing: border-box
+
+    &__input
+        padding: 12px
+        border: 1px solid #ccd0d5
+        border-radius: 5px
+        outline: none
+        background-color: transparent
+        width: 375px
+    
+
+
+    &__group
+        position: relative
+        margin-bottom: 10px
+    
+    &__label
+        color: #8d949e
+        position: absolute
+        top: 0
+        left: 0
+        z-index: -1
+        padding: 12px
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif
+        font-size: 15px
+        line-height: 16px
+
+    &__input:not(:placeholder-shown) ~ &__label
+        display: none
+
+.name
+    width: 170px
+
+.first-name
+    margin-right: 8px
+
+.input-name
+    width: 170px
+    padding: 11px
+    background: #f5f6f7
+
+.select 
+    border-radius: 4px
+    color: #1c1e21
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif
+    font-size: 15px
+    font-weight: normal
+    height: 36px
+    line-height: 20px
+    -webkit-appearance: none
+    background-image: url('../../static/arrow-down.png')
+    background-position: right 5px center
+    background-repeat: no-repeat
+    background-size: 14px
+    padding: 0 8px
+    padding-right: 20px
+    width: 125px
+    border: 1px solid #ccd0d5
+
